@@ -23,3 +23,12 @@ hs_err_pid*
 
 /onlineshopping/target/
 /shoppingbackend/target/
+
+.metadata/
+RemoteSystemsTempFiles/
+onlineshopping/.classpath
+onlineshopping/.project
+onlineshopping/.settings/
+shoppingbackend/.classpath
+shoppingbackend/.project
+shoppingbackend/.settings/
