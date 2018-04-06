@@ -11,6 +11,7 @@
   <!-- Having Java EE version at top means we don't have to change it in several places -->
   <properties>
   	<javaee.version>7.0</javaee.version>
+  	<spring.version>5.0.5.RELEASE</spring.version>
   </properties>
   
   <dependencies>
@@ -28,6 +29,13 @@
       <version>${javaee.version}</version>
       <scope>provided</scope>
     </dependency>
+    <!-- Spring -->
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-webmvc</artifactId>
+    	<version>${spring.version}</version>
+	</dependency>
+    
   </dependencies>
   <build>
   	<plugins>
